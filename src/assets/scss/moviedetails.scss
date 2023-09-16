@@ -1,0 +1,14 @@
+
+
+
+
+#movieContainer {
+	min-width: 100vw;
+
+	@media (min-width: 768px){
+		display: flex;
+		align-items: flex-start;
+		//border: 1px dotted green;
+		flex-flow: row nowrap;
+	}
+}

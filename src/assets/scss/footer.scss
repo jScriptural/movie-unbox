@@ -1,0 +1,54 @@
+
+
+#footer {
+	padding:1rem 0;
+	margin-top: 2.5rem;
+	//border: 1px solid blue;
+
+	.socials {
+		//border: 1px solid green;
+		margin-bottom: .5rem;
+		width: 100%;
+		text-align: center;
+		//padding: 1rem 5rem;
+		a {
+			text-decoration: none;
+			margin: 0 1rem;
+			cursor: pointer;
+			vertical-align: middle;
+
+			span {
+				font-size: 1.2rem;
+			}
+		}
+
+
+	}
+	.policy-and-announcement {
+		//border: 1px solid red;
+		text-align: center;
+		vertical-align: middle;
+		margin-bottom: .5rem;
+		.footer-link {
+			text-decoration: none;
+			span {
+				margin: 0 .4rem;
+				@media (min-width:768px){
+					margin: 0 .6rem;
+				}
+			}
+
+		}
+
+	}
+	.credits {
+		//border: 1px solid red;
+		text-align: center;
+		font-weight: 300;
+
+	}
+
+
+
+
+}

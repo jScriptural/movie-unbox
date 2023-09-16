@@ -1,0 +1,15 @@
+
+#featuredMovies {
+	//border: 3px solid #fff;
+	padding:1rem .5rem;
+	.link {
+		text-decoration: none;
+	}
+	
+	@media (min-width: 768px){
+		display: grid;
+		grid-template-columns: repeat(3,1fr);
+		grid-gap: 1.5rem;
+	}
+
+}
