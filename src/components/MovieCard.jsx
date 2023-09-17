@@ -8,7 +8,7 @@ export default function MovieCard(props){
 
 	return (
 		<div id="trendingMoviesContainer">
-		 <div className="poster-img">{children}</div>
+		 <div className="poster-img" data-testid="movie-poster">{children}</div>
 		 <div className="info-con">
 			
 		  <div data-testid="movie-title" className="title">{details.title}</div>

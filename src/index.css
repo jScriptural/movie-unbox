@@ -3,10 +3,10 @@
 
   font-family:"Poppins",  Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 15px;
 
-  color-scheme: light dark;
- /* background-color: #fff;*/
+  /*color-scheme: light dark;
+  background-color: #fff;*/
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

@@ -1,4 +1,4 @@
-import {useLocation} from "react-router-dom";
+import {useLocation,useParams} from "react-router-dom";
 import Loader from "./Loader.jsx";
 import {useState,useEffect} from "react";
 import Sidebar from "./Sidebar.jsx";
@@ -18,6 +18,7 @@ export default function(props){
 	const [trailer,setTrailer] = useState({});
 
 	const movieId = location.pathname.slice(7); 
+         //const movieId = useParams();
 	//console.log(movieId);
 
 	useEffect(()=>{
