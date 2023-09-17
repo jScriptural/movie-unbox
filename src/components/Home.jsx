@@ -35,7 +35,7 @@ export default function Card(props){
 
 		async function fetchData(){
 
-			let res = await fetch(url2,options);
+			let res = await fetch(url,options);
 			let data = await res.json();
 		         //console.log(data);
 			let genres = await fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apiKey}`,options); 
