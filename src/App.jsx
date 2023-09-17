@@ -12,7 +12,7 @@ function App() {
   return (<>
 	  <Routes>
 	  <Route path="/" element={<Home />} />
-	  <Route path="movie/:movieid" element={<MovieDetails />}/>
+	  <Route path="movies/:movieid" element={<MovieDetails />}/>
 	  <Route path="nocontent" element={<NoContent />} />
 
 

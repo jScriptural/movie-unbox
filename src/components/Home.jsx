@@ -76,7 +76,7 @@ export default function Card(props){
 		      justifyContent: "space-between",
 		padding: ".5rem"}}><h1>Featured Movie</h1><Link to="nocontent" style={linkStyle}><small>see more &raquo;</small></Link></header>
 		<div id="featuredMovies">
-		{data?data.map((movie,i)=><MovieCard details={{title:movie.original_title,genres:movie.genres}} key={i}><Link className="link" exact="true" to={"movie/"+movie.id}><Img src={imgBasePath+movie.poster_path} alt={movie.original_title} caption={movie.release_date} /></Link></MovieCard>):<Loader />}
+		{data?data.map((movie,i)=><MovieCard details={{title:movie.original_title,genres:movie.genres}} key={i}><Link className="link" exact="true" to={"movies/"+movie.id}><Img src={imgBasePath+movie.poster_path} alt={movie.original_title} caption={movie.release_date} /></Link></MovieCard>):<Loader />}
 
 		</div>
 

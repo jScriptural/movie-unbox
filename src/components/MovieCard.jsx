@@ -7,8 +7,8 @@ export default function MovieCard(props){
 	const {children,details} = props;
 
 	return (
-		<div id="trendingMoviesContainer">
-		 <div className="poster-img" data-testid="movie-poster">{children}</div>
+		<div data-testid="movie-card" id="trendingMoviesContainer">
+		 <div className="poster-img">{children}</div>
 		 <div className="info-con">
 			
 		  <div data-testid="movie-title" className="title">{details.title}</div>
