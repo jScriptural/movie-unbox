@@ -31,7 +31,7 @@ console.log(movieid);
 		<h1 className="title" data-testid="title">{title}</h1>
 		<div className="misc"><div className="logo"><object type="image/svg+xml" data={imdbLogo}></object><span></span></div></div>
 		<div className="overview"><p>{overview.slice(0,100)+"... "}</p></div>
-		<div className="btn-container"><Link to={"movie/"+movieid}><button type="button" className="btn"><span className="fa fa-play"></span><span>WATCH TRAILER</span></button></Link></div>
+		<div className="btn-container"><Link to={"movies/"+movieid}><button type="button" className="btn"><span className="fa fa-play"></span><span>WATCH TRAILER</span></button></Link></div>
 		</div>
 	 
 
