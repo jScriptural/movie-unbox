@@ -5,8 +5,6 @@ import MovieDetails from "./components/MovieDetails.jsx";
 import Footer from "./components/Footer.jsx";
 import NoContent from "./components/NoContent.jsx";
 
-
-
 function App() {
 
   return (<>
@@ -20,7 +18,9 @@ function App() {
 
 
 	  </Routes>
-	  <Footer />
+
+  	<Footer />
+
 	  </>) 
 
 }

@@ -39,6 +39,14 @@
 			}
 
 		}
+		@media (max-width:768px){
+			display:flex;
+			flex-flow: column nowrap;
+			justify-content: center;
+			align-items: center;
+		}
+
+	
 
 	}
 	.credits {

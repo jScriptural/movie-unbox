@@ -103,8 +103,9 @@
 		width: 80%;
 		//border: 1px solid red;
 		display: flex;
+		color: rgba(123,222,145);
 		flex-flow: column nowrap;
-		backdrop-filter: blur(2px) grayscale(50%);
+		//backdrop-filter: blur(1px);
 		border-radius: 1rem;
 		.title {
 			font-size: 1.1rem;

@@ -1,4 +1,4 @@
-import {useLocation,useParams} from "react-router-dom";
+import {useParams} from "react-router-dom";
 import Loader from "./Loader.jsx";
 import {useState,useEffect} from "react";
 import Sidebar from "./Sidebar.jsx";
@@ -11,15 +11,14 @@ const options = {                                         method: "GET",        
 const url = `https://api.themoviedb.org/3/movie/`
 
 export default function(props){
-	const location = useLocation();
+	const param = useParams();
 	const [details,setDetails] = useState(null);
 	const [crew,setCrew] = useState(null);
 	const [cast,setCast] = useState(null);
 	const [trailer,setTrailer] = useState({});
 
-	const movieId = location.pathname.slice(7); 
-         //const movieId = useParams();
-	//console.log(movieId);
+	const movieId = param.movieid;
+	console.log("id",param);
 
 	useEffect(()=>{
 
